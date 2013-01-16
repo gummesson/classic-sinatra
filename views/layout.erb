@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title><%= "#{APP_NAME}" %> | <%= "#{APP_DESC}" %></title>
+    <link rel="stylesheet" href="/global.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+      <h1>
+        <%= "#{APP_NAME}" %>
+      </h1>
+      <p>
+        <%= "#{APP_DESC}" %>
+      </p>
+      </header><!-- .header -->
+      <div class="content">
+        <%= yield %>
+      </div><!-- .content -->
+    </div><!-- .container -->
+  </body>
+</html>
