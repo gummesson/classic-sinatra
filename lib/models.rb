@@ -1,7 +1,7 @@
 # Setup database
 DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/db/database.db")
 
-# Entry properties
+# Example properties
 class Example
   include DataMapper::Resource
   property :id, Serial
