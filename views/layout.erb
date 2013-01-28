@@ -7,17 +7,17 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
-      <h1>
-        <%= "#{APP_NAME}" %>
-      </h1>
-      <p>
-        <%= "#{APP_DESC}" %>
-      </p>
-      </header><!-- .header -->
-      <div class="content">
+      <header class="app-header">
+        <h1>
+          <%= "#{APP_NAME}" %>
+        </h1>
+        <p>
+          <%= "#{APP_DESC}" %>
+        </p>
+      </header><!-- .app-header -->
+      <div class="app-content">
         <%= yield %>
-      </div><!-- .content -->
+      </div><!-- .app-content -->
     </div><!-- .container -->
   </body>
 </html>
