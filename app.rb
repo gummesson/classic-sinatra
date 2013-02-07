@@ -7,9 +7,6 @@ require 'data_mapper'
 APP_NAME = "Name"
 APP_DESC = "Description"
 
-# Set app directory as root
-$:.unshift File.dirname(__FILE__)
-
 # App library
 require 'lib/models'
 require 'lib/helpers'
